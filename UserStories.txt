@@ -1,0 +1,34 @@
+Transactionary
+
+App Idea:
+This is an app that will allow users to perform the one simple objective - Saves In person and online purchase history. This app will hold records of any type of purchase for record keeping purposes. Whenver one wants to refer to a purchase, they can simply click the item and it will reveal all details regarding that purchase.
+
+As a new user, I want to be able to:
+- Create an account - High
+
+- Upload transactions/reciepts information (prices, vendor, etc.) - High
+
+- Contact creator (via email) - Low
+
+
+As a returning user/administator, I want to be able to:
+
+- Sign into account
+
+- View all transactions uploaded - High
+
+- Modify the details of any reciept (i.e. Name, transaction date, etc) - High
+
+- Delete transactions permanetly - High
+
+- Filter transactions based off purchase date, item or vendor - Medium
+
+- Search transactions by title - Medium
+
+- Sort transactions by purchase date, aphabetical - Medium
+
+- Make folders/containers, that hold multiple reciepts at once, and be able to name them.
+
+*As a diabled user, I want to be able to:
+
+- Peform user stores detailed above as well as special functions such as 

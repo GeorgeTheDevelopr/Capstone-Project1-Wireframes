@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Homemade+Apple&family=Josefin+Sans&family=Oswald:wght@300&family=Overlock&family=Questrial&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="./main.css" type="text/css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="background-img">
+      <img src="./images/receipts-4542292.jpg">
+      <img class="image-2" src="./images/shopping-879498_1280.jpg">
+    </div>
+    <section class="header-content">
+      <h1 class='header header-title'>Transactionary.</h1>
+      <h3 class='header header-subtitle'>Securely upload and save your all of your transactions. Take action with Transactionary.</h3>
+      <h4 class="name-sig">Created By George Brown</h4>
+    </section>
+
+    <nav class='navBar'>
+      <ul class="nav-list">
+        <li>
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Create Account/Sign In</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Contact/About</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="body-content">
+      <form class="signup-form">
+        <legend>Upload a transaction</legend>
+          <label for="item-name">Item Name</label>
+          <input type="text" id="item-name" placeholder="Apples" required>
+
+          <label for="vendor-name">Vendor</label>
+          <input type="text" id="vendor-name" placeholder="Kroger" required>
+
+          <label for="item-price">Price</label>
+          <span>$<input type="number" min="0.01" step="0.01" max="2500" value="25.67"></span>
+          <input type="submit" placeholder="submit">
+      </form>
+
+      <form class='photo-upload-form'>
+        <legend></legend>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
